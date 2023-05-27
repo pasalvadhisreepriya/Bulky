@@ -18,6 +18,8 @@ namespace BulkyBook.DataAccess.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
+        public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         public DbSet<OrderHeader> OrderHeaders { get; set; }
@@ -79,8 +81,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 86,
                     Price50 = 78,
                     Price100 = 80,
-                    CategoryId = 1,
-                    ImageUrl=""
+                    CategoryId = 1
+                    
                 },
                 new Product
                 {
@@ -93,8 +95,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 20,
                     Price50 = 30,
                     Price100 = 65,
-                    CategoryId = 1,
-                    ImageUrl=""
+                    CategoryId = 1
+                    
                 },
                 new Product
                 {
@@ -107,8 +109,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 40,
                     Price50 = 38,
                     Price100 = 70,
-                    CategoryId = 1,
-                    ImageUrl=""
+                    CategoryId = 1
+              
                 },
                 new Product
                 {
@@ -121,8 +123,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 63,
                     Price50 = 50,
                     Price100 = 60,
-                    CategoryId = 2,
-                    ImageUrl=""
+                    CategoryId = 2
+                    
                 },
                 new Product
                 {
@@ -135,8 +137,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 24,
                     Price50 = 35,
                     Price100 = 60,
-                    CategoryId = 2,
-                    ImageUrl=""
+                    CategoryId = 2
+                    
                 },
                 new Product
                 {
@@ -149,8 +151,8 @@ namespace BulkyBook.DataAccess.Data
                     Price = 23,
                     Price50 = 25,
                     Price100 = 70,
-                    CategoryId = 3,
-                    ImageUrl=""
+                    CategoryId = 3
+                   
                 }
                 );
         }
